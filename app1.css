@@ -1,0 +1,8 @@
+.blue, .pink, .orange, .purple 
+{
+    position: absolute;
+  }
+  .purple 
+  {
+    z-index: 0;
+  }
