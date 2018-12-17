@@ -6,9 +6,9 @@ class Sums extends Component {
         super();
         this.state = {
             names: [
-                { name: 'amn' },
-                { name: 'asf' },
-                { name: 'nmn' }
+                { name: 'vishal', lastname: 'thakur' },
+                { name: 'tanu', lastname: 'siani' },
+                { name: 'nmn', lastname: 'rajput' }
             ]
 
 
@@ -21,7 +21,7 @@ class Sums extends Component {
             <div>
                 {
                      this.state.names.map(function (names , key){
-                         return(<Meta key={key} names={names.name}/>
+                         return(<Meta key={key} names={names}/>
                              
                          )
                      }

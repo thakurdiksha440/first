@@ -47,7 +47,7 @@ class States extends Component {
     render() {
         return (
                           
-
+            
             <div>
                 {
                     this.state.sprop.map((index, key) => {
@@ -86,9 +86,6 @@ class States extends Component {
                         </Col>
 
                     </Row>
-
-
-
                 }
             </div>
 
