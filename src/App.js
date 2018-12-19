@@ -1,37 +1,41 @@
 import React, { Component } from 'react';
 import './App.css';
-import Human from './person'
-import Som from './map'
-import Nom from './stateprop'
-import See from './setstate'
+// import Human from './person'
+// import Som from './map'
+// import Nom from './stateprop'
+// import See from './setstate'
+// import Sett from './push'
+import Lee from './mainpage'
 
 class App extends Component {
-    state = {
-        per: [
-            { name: 'shilpa', age: 23, rollNo: 1 },
-            { name: 'diksha', age: 21, rollNo: 2 },
-            { name: 'tanu', age: 18, rollNo: 3 }
-        ],
-        otherState: 'some other value'
-    }
-    switchNameHandler = (newName) => {
-        this.setState({
-            per: [
-                { name: 'Tanu', age: 18, rollNo: 3 },
-                { name: newName, age: 23, rollNo: 1 },
-                { name: 'DIKSHA', age: 21, rollNo: 2 }
-            ]
-        })
-    }
+    // state = {
+    //     per: [
+    //         { name: 'shilpa', age: 23, rollNo: 1 },
+    //         { name: 'diksha', age: 21, rollNo: 2 },
+    //         { name: 'tanu', age: 18, rollNo: 3 }
+    //     ],
+    //     otherState: 'some other value'
+    // }
+    // switchNameHandler = (newName) => {
+    //     this.setState({
+    //         per: [
+    //             { name: 'Tanu', age: 18, rollNo: 3 },
+    //             { name: newName, age: 23, rollNo: 1 },
+    //             { name: 'DIKSHA', age: 21, rollNo: 2 }
+    //         ]
+    //     })
+    // }
 
 
     render() {
         return (
             <div className="App">
-
-                <Som />
+            {/* <Sett /> */}
+<Lee />
+                {/* <Som />
                 <Nom />
                 <See />
+                
 
                 <button onClick={() => this.switchNameHandler('diksha!!')}>Click</button>
 
@@ -41,7 +45,7 @@ class App extends Component {
 
                 <Human name={this.state.per[2].name} age={this.state.per[2].age} rollNo={this.state.per[2].rollNo} />
 
-                <Human otherdata={this.state.otherState} age="22"></Human>
+                <Human otherdata={this.state.otherState} age="22"></Human> */}
 
 
 

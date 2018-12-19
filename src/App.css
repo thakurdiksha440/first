@@ -1,4 +1,4 @@
-body{
+/* body{
   overflow-x: hidden !important;
 }
 
@@ -88,4 +88,18 @@ background-color:grey;
 
 
 
-
+ */
+ .pix{
+   margin: 100px;
+   background-color: pink;
+ }
+ .col-4 {
+   padding: 0px;
+ }
+ .bb{
+  background-color: yellow;
+ }
+ .row{
+   margin: 0 !important;
+   padding: 0 !important;
+ }
